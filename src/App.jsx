@@ -18,7 +18,7 @@ export const App = () => {
         <ul>
           {incompleteTodos.map((todo) => {
             return (
-              <div className="list-row">
+              <div key={todo} className="list-row">
                 {todo}
                 <button>完了</button>
                 <button>削除</button>
