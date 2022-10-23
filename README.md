@@ -6,3 +6,5 @@ Created with CodeSandbox
 3. お手本[JSXで構造を作成](https://youtu.be/rUY3MSvyKrU?t=4844)通りにsrc/App.jsxを編集します。
 4. これまでHTML,CSSでデザイン構造ができたので、次にReactでの機能面での実装を意識したモックに変更していきます。
     [モックへの変更](https://youtu.be/rUY3MSvyKrU?t=5209) 。さらに、ここで新ブランチ02-make-mockを切ります。
+5. Reactでは、状態が変化していくものはStateとして定義する。
+    
