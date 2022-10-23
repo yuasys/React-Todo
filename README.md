@@ -15,4 +15,5 @@ Created with CodeSandbox
 7. 「ReactDOM.renderはまもなくサポート終了するので、その代わりにcreateRootを使いなさい」という警告が出たので、
     [この記事](https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#updates-to-client-rendering-apis)を参考にしてindex.jsを書き換えました。
     
-    
+8. それでもまだ「manifest.jsonの文法エラー」警告が出ていたので、/paublicディレクトリにダミーのmanifest.jsonファイルを設定したところエラーがなくなりました。
+ 
