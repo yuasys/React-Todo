@@ -16,4 +16,8 @@ Created with CodeSandbox
     [この記事](https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html#updates-to-client-rendering-apis)を参考にしてindex.jsを書き換えました。
     
 8. それでもまだ「manifest.jsonの文法エラー」警告が出ていたので、/paublicディレクトリにダミーのmanifest.jsonファイルを設定したところエラーがなくなりました。
+
+9. onClick={onClickDelete(index)}のように、直接引数を含む関数を{}の中に書いてしまうと、呼ばれた時に即時実行されてしまう。
+    それをクリック時だけ関数を実行させるには、cnClick={() =>onClick(index)}のようにアロー関数を生成するコードを記述するとOK
+    
  
